@@ -9,6 +9,7 @@ Main purpose of this is to R&D and learn newer changes.
 - Java 8
 - Java 11
 - Java 12
+- Java 14
 
 ## Todo
 

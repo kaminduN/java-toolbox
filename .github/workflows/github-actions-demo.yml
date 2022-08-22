@@ -14,5 +14,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
           architecture: x64
-      - name: Build with Maven
-        run: mvn --batch-mode --update-snapshots package
+      - name: Run maven command
+        run: |
+          cd ./jfeatures
+          mvn clean package test

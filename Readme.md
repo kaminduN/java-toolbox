@@ -6,10 +6,13 @@ Main purpose of this is to R&D and learn newer changes.
 
 ## Java versions 
 
+- core java , upto java 8
 - Java 8
+- Java 9
 - Java 11
 - Java 12
 - Java 14
+- Java 16
 
 ## Todo
 

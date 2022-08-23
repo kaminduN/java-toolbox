@@ -1,8 +1,5 @@
 package com.demo.j11;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;

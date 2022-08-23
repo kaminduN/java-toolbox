@@ -1,12 +1,32 @@
 package com.demo.j14;
 
+/**
+ * Preview feature from Java SE 12 re-previewed for J13 and released in J14
+ */
 public class SwitchFeature {
+
     
+    // short hand form of writing the expression
     public boolean newSwitchExpression(int time) {
         
         boolean isValid = switch (time) {
             case 2, 14, 20 -> true;
             default -> false;
+        };
+
+        return isValid;
+
+    }
+
+    
+    public boolean newSwitchExpressionwithyield(int time) {
+        
+        boolean isValid = switch (time) {
+            case 2, 14, 20:
+                // using yield instead inplace of break to return values
+                yield true;
+            default:
+                yield false;
         };
 
         return isValid;

@@ -1,4 +1,4 @@
-package com.demo.j8.funcinterfaces;
+package com.demo.j8.functional_interfaces;
 
 
 public interface Interface2 {

@@ -11,7 +11,7 @@ public class MainStream {
 
     public static void main(String[] args) {
         
-        var inst = new MainStream();
+        MainStream inst = new MainStream();
 
         List<Integer> myList = new ArrayList<>();
 		for(int i=0; i<100; i++) myList.add(i);

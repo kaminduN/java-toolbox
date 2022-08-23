@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class StreamFeatures {
     
+    //var variable type is introduced as preview in J10 and released in J11
 
     /**
      * 
@@ -15,6 +16,7 @@ public class StreamFeatures {
      */
     public static String getRange(List<Integer> numbers) {
 
+           // var -> Local-Variable Type Inference extends type inference to declarations of local variables with initializers.
            var min = numbers.stream().collect(Collectors.minBy(Integer::compare));
 
            Optional<Integer> max = numbers.stream().collect(Collectors.maxBy((o1, o2) -> Integer.compare(o1, o2)));

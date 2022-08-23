@@ -38,4 +38,12 @@ public class Person {
     }
 
     // standard getters
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }

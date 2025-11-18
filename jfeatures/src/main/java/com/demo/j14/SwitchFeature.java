@@ -7,6 +7,9 @@ public class SwitchFeature {
 
     
     // short hand form of writing the expression
+    //The main advantage of this syntax is that we don't need a break statement to avoid the default fall-through
+    //for all case branches it should be either case: or case with arrow. 
+    //  It cannot be different or different cases in a switch else it results in an error
     public boolean newSwitchExpression(int time) {
         
         boolean isValid = switch (time) {

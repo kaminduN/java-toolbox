@@ -20,7 +20,7 @@ public class PatternMatching {
      * Primitive pattern matching allows instanceof to be used not just for reference types, 
      * but also primitive types like int, double, etc
      * It removes the need for manual unboxing and type-casting boilerplate
-     * from java 25+
+     * preview feature in Java SE 24 released from java 25+
      */
     void checkValue(Object obj){
         
